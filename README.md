@@ -4,14 +4,20 @@
 * 150 GB SSD
 *  1080p / 15 Mbits/secs
 ## Host
-### Driver
-* Update GPU Driver to Gaming
+### First boot
+* Update GPU Driver:  Select Gaming
+* cmd
+
+   ```"C:\program files\sunshine\sunshine.exe" --creds user 5WUu2mpTl6xe```
 ### Nvidia control
-* Shader Cache: 100 GB
-* vsync: off
+* Shader Cache: 10 GB
+* vsync: on (turn off in game)
+* Low latency: Ultra
 * power management: Prefer maximum
-### sunlight / vibelight setup
-* ```"C:\program files\sunshine\sunshine.exe" --creds user 5WUu2mpTl6xe```
+### Sunshine/vibeshine
+* Capture Method: Windows Graphics Capture (WGC) variable
+* Force a specific encoder:  NVIDIA NVENC
+* NVENC Encoder: Performance Preset: P4
 ### GOG Galaxy
 * https://webinstallers.gog-statics.com/download/GOG_Galaxy_2.0.exe
 ### Reshade
