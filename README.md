@@ -11,7 +11,7 @@
 * vsync: off
 * power management: Prefer maximum
 ### sunlight / vibelight setup
-* ```sunshine-creds user 5WUu2mpTl6xe```
+* ```"C:\program files\sunshine\sunshine.exe" --creds user 5WUu2mpTl6xe```
 ### GOG Galaxy
 * https://webinstallers.gog-statics.com/download/GOG_Galaxy_2.0.exe
 ### Reshade
