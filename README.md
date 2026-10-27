@@ -1,4 +1,38 @@
 # airgpu
+## VM Settings
+* L4 or L40S (for gaming drivers and DLSS 3)
+* 150 GB SSD
+*  1080p / 15 Mbits/secs
+## Host
+### Driver
+* Update GPU Driver to Gaming
+### Nvidia control
+* Shader Cache: 100 GB
+* vsync: off
+* power management: Prefer maximum
+### sunlight / vibelight setup
+* ```sunshine-creds user 5WUu2mpTl6xe```
+### GOG Galaxy
+* https://webinstallers.gog-statics.com/download/GOG_Galaxy_2.0.exe
+### Reshade
+*  https://reshade.me/
+### Vortex
+* https://api.nexusmods.com/vortex/download
 
-# sunlight / vibelight setup
-```sunshine-creds user 5WUu2mpTl6xe```
+## Moonlight client
+* https://github.com/moonlight-stream/moonlight-qt/releases
+  * portable x64
+* Start from start menu
+* 1080p / 60 fps
+* Bitrate:
+  * airgpu recommends 15 Mbits/sec
+  * AI recommends 20-25 Mbits/sec
+  * network connection 100Mbits / sec
+* VSync:
+  * off for lower latency
+  * on with frame pacing for mid latency but no tearing
+* Advanced
+  * Video decoder: force hardware
+  * Video Codec: AV1
+  * Automatically find PC on network: off
+
